@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+https://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean id="user" name="user1" class="model.User">
+<constructor-arg index="0" type="String">
+<value>Shekar</value>
+</constructor-arg>
+<constructor-arg index="1" type="int">
+<value>123</value>
+</constructor-arg>
+<constructor-arg index="2" type="String">
+<value>Raj123</value>
+</constructor-arg>
+</bean>
+<bean id="bank" name="bank1" class="model.AccountDetails">
+<constructor-arg index="0" type="String">
+<value>Sbi</value>
+</constructor-arg>
+<constructor-arg index="1" type="String">
+<value>Savings</value>
+</constructor-arg>
+</bean>
+</beans>
+
